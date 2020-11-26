@@ -1,0 +1,32 @@
+header {
+  background: #2680c0;
+  padding: 1.25rem 1.5rem;
+}
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.main-nav .brand {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.cart-items-wrapper {
+  height: 40px;
+  width: 40px;
+  border: 1px solid #fff;
+  position: relative;
+}
+
+.total-cart-item {
+  height: 30px;
+  width: 30px;
+  border: 1px solid #fff;
+  position: absolute;
+  text-align: center;
+  border-radius: 50%;
+  background: #85c6f4;
+  top: -0.5rem;
+  right: -0.5rem;
+}
