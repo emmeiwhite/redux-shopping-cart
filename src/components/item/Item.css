@@ -1,0 +1,25 @@
+.arrow-down {
+  display: inline-block;
+  transform: rotate(180deg);
+}
+.item-card {
+  display: grid;
+  grid-template-columns: 80px 1fr 30px;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.item-image {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.arrows {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.item-amount {
+  margin: 1rem 0;
+}
